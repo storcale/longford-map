@@ -7,6 +7,15 @@
   - Show on sidebar
   2:
   - Populate map with markers from db
+  
+  ### DB entries:
+  - marker id
+  - position
+  - short_description
+  - name
+  - long description
+  - links
+  - images
 
  ## UI
  - Map:
