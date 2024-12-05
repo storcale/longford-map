@@ -1,6 +1,7 @@
 
-
 export default function Sidebar(){
+    
+    
     return(
         <div style={{ border: '1px solid white' , height:'800px',width:'500px'}}>
             <h1>Title</h1>
