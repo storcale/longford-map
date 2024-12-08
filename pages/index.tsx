@@ -6,7 +6,8 @@ const Map = dynamic(() => import("../components/map"), {
   ssr: false,
   loading: () => <p>Loading...</p>,
  });
-
+ 
+console.log("Map component:", Map); 
 export default function Home() {
   return (
     <main>

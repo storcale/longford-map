@@ -8,5 +8,5 @@ const markerSchema = new mongoose.Schema({
     name: {type: String, required: true},
     description: { type: String, required: true },
 });
-const Marker = mongoose.model('Marker', markerSchema);
+const Marker = mongoose.models.Marker || mongoose.model('Marker', markerSchema);
 export default Marker
