@@ -1,11 +1,13 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import Sidebar from "./components/sidebar";
-const Map = dynamic(() => import("./components/map"), {
+import Sidebar from "../components/sidebar";
+const Map = dynamic(() => import("../components/map"), {
   ssr: false,
   loading: () => <p>Loading...</p>,
  });
+ 
+console.log("Map component:", Map); 
 export default function Home() {
   return (
     <main>
